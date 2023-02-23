@@ -39,6 +39,11 @@ body {
 
     width: 100%;
 
+    /* thêm cái này vô khi images có chiều cao khác nhau  
+    Với thêm ở phần ".slide img" nữa
+    */
+    height: 100%;
+
     clip-path: circle(0% at 0 50%);
     /* clip-path: polygon(0% 0%, 0% 0, 0% 50%, 0% 100%, 0% 100%); */
 
@@ -63,9 +68,17 @@ body {
 
     width: 100%;
 
+    /* thêm cái này vô khi images có chiều cao khác nhau 
+    Để cho chiều cao images luôn bám theo khung bao bọc nó
+    */
+    height: 100%;
+
     /* border-radius: 5px; */
     /* border-radius: 10px; */
     border-radius: 15px;
+
+    /* object-fit: cover; */
+    /* object-position: center; */
 }
 
 .img-slider .slide .info {
@@ -106,11 +119,13 @@ body {
     
     display: flex;
 
-    bottom: 30px;
+    /* bottom: 30px; */
+    bottom: -10%;
+
     left: 50%;
     transform: translateX(-50%);
 
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 /* ======================================================================================================== */
