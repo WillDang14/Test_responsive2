@@ -175,7 +175,7 @@ body {
     }
 
     .img-slider .navigation {
-        bottom: 25px;
+        /* bottom: 25px; */
     }
 
     .img-slider .navigation .btn {
@@ -211,13 +211,19 @@ body {
     }
 
     .img-slider .navigation {
-        bottom: 15px;
+        /* bottom: 15px; */
+
+        bottom: -15%;
     }
 
     .img-slider .navigation .btn {
-        width: 8px;
-        height: 8px;
-        margin: 6px;
+        /* width: 8px; */
+        /* height: 8px; */
+        /* margin: 6px; */
+
+        width: 14px;
+        height: 14px;
+        margin: 10px;
     }
 }
 
@@ -247,7 +253,9 @@ body {
     }
 
     .img-slider .navigation {
-        bottom: 10px;
+        /* bottom: 10px; */
+
+        bottom: -20%;
     }
 }
 
