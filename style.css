@@ -261,9 +261,11 @@ body {
         /* width: 320px; */
         /* height: 200px; */
 
-        width: 360px;
-        height: 225px;
+        /* width: 360px; */
+        /* height: 225px; */
 
+        width: 400px;
+        height: 250px;
     }
 
     .img-slider .slide .info {
@@ -276,12 +278,16 @@ body {
     .img-slider .slide .info h2 {
         /* font-size: 25px; */
 
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .img-slider .slide .info p {
-        width: 90%;
-        font-size: 11px;
+        /* width: 90%; */
+        
+        width: 70%;
+        
+        /* font-size: 11px; */
+        font-size: 9px;
     }
 
     .img-slider .navigation {
