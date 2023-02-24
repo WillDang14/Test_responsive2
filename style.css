@@ -124,7 +124,9 @@ body {
     top: 5%;
     
     padding: 10px;
-    border: 1px solid red;
+    
+    border: 1px solid blue;
+    /* border: 1px solid red; */
 }
 /* ======================================================================================================== */
 /* Thiết kế buttons */
@@ -165,7 +167,8 @@ body {
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-@media (max-width: 1600px)
+/* Độ phân giải của tab S7 tầm xấp xỉ 1600px */
+@media (max-width: 1500px)
 {
     .img-slider {
         /* width: 920px; */
@@ -177,7 +180,7 @@ body {
 
     /* moi them vo */
     .img-slider .slide:nth-child(6) .info h2 {
-        width: 60%;
+        width: 90%;
     }
 }
 
