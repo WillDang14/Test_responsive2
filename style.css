@@ -183,18 +183,18 @@ Vì cho dù có khai báo "opacity=0" và "visibility: hidden;" thì vẫn khôn
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* Độ phân giải của tab S7 xoay ngang tầm xấp xỉ 1500px 
-Đã test 1200px ==>> Resolution > 1200px
+/* Độ phân giải của tab S7 xoay ngang tầm xấp xỉ 1280px 
+Đã test 1200px ==>> Resolution > 1200px.
+Kết luận: (max-width: 1280px) là hợp lý
 */
-/* @media (max-width: 1400px) */
 @media (max-width: 1280px)
 {
     .img-slider {
-        /* width: 920px; */
-        /* height: 575px; */
+        width: 920px;
+        height: 575px;
 
-        width: 800px;
-        height: 500px;
+        /* width: 800px; */
+        /* height: 500px; */
     }
 }
 
@@ -225,17 +225,20 @@ Vì cho dù có khai báo "opacity=0" và "visibility: hidden;" thì vẫn khôn
     .img-slider .slide .info h2 {
         /* font-size: 35px; */
 
-        font-size: 28px;
+        /* font-size: 28px; */
+        font-size: 22px;
     }
 
     .img-slider .slide .info p {
         width: 70%;
-        font-size: 15px;
+
+        /* font-size: 15px; */
+        font-size: 12px;
     }
 
-    .img-slider .navigation {
+    /* .img-slider .navigation { */
         /* bottom: 25px; */
-    }
+    /* } */
 
     .img-slider .navigation .btn {
         width: 10px;
@@ -290,6 +293,9 @@ Vì cho dù có khai báo "opacity=0" và "visibility: hidden;" thì vẫn khôn
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* 
+Chiều rộng của Note10/S21plus (để đứng) tầm < 420px
+*/
 @media (max-width: 420px)
 {
     .img-slider {
@@ -301,8 +307,12 @@ Vì cho dù có khai báo "opacity=0" và "visibility: hidden;" thì vẫn khôn
         /* height: 225px; */
 
         /* Gần bằng chiều rộng note10, S21plus (để đứng) */
-        width: 400px;
-        height: 250px;
+        /* width: 400px; */
+        /* height: 250px; */
+
+        width: 384px;
+        height: 240px;
+
     }
 
     .img-slider .slide .info {
@@ -315,16 +325,19 @@ Vì cho dù có khai báo "opacity=0" và "visibility: hidden;" thì vẫn khôn
     .img-slider .slide .info h2 {
         /* font-size: 25px; */
 
-        font-size: 16px;
+        /* font-size: 16px; */
+        font-size: 14px;
     }
 
     .img-slider .slide .info p {
         /* width: 90%; */
         
-        width: 70%;
+        /* width: 70%; */
+        width: 60%;
         
         /* font-size: 11px; */
-        font-size: 9px;
+        /* font-size: 9px; */
+        font-size: 8px;
     }
 
     .img-slider .navigation {
