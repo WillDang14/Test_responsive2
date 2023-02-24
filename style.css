@@ -118,17 +118,10 @@ body {
     /* backdrop-filter: blur(2px); */
 }
 
-/* .img-slider .slide:nth-child(6) .info{ */
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
-    /* top: 5%; */
-    
-    /* padding: 10px; */
-    
-    /* border: 1px solid blue; */
-    /* border: 1px solid red; */
-/* } */
 
+/* thực ra <p> này không cần show. Công dụng là để chiều rộng của ".info" bằng chiều rộng của "img-slider".
+Qua đó thì mới căn giữa <h2> được
+*/
 .img-slider .slide:nth-child(6) .info p {
     /* opacity: 0; */
     visibility: hidden;
