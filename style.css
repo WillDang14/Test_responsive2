@@ -165,7 +165,7 @@ body {
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-@media (max-width: 1400px)
+@media (max-width: 1600px)
 {
     .img-slider {
         /* width: 920px; */
@@ -219,6 +219,12 @@ body {
         width: 10px;
         height: 10px;
         margin: 8px;
+    }
+
+
+    /* moi them vo */
+    .img-slider .slide:nth-child(6) .info h2 {
+        width: 60%;
     }
 }
 
@@ -310,10 +316,7 @@ body {
         bottom: -20%;
     }
 
-    /* moi them vo */
-    .img-slider .slide:nth-child(6) .info h2 {
-        width: 60%;
-    }
+
 }
 
 
