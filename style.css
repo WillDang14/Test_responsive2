@@ -118,15 +118,26 @@ body {
     /* backdrop-filter: blur(2px); */
 }
 
-.img-slider .slide:nth-child(6) .info{
-    left: 50%;
-    transform: translateX(-50%);
-    top: 5%;
+/* .img-slider .slide:nth-child(6) .info{ */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    /* top: 5%; */
     
-    padding: 10px;
+    /* padding: 10px; */
     
     /* border: 1px solid blue; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
+/* } */
+
+.img-slider .slide:nth-child(6) .info p {
+    /* opacity: 0; */
+    visibility: hidden;
+}
+
+.img-slider .slide:nth-child(6) .info h2 {
+    text-align: center;
+
+    /* border: 1px solid blue; */
 }
 /* ======================================================================================================== */
 /* Thiết kế buttons */
@@ -176,11 +187,6 @@ body {
 
         width: 800px;
         height: 500px;
-    }
-
-    /* moi them vo */
-    .img-slider .slide:nth-child(6) .info h2 {
-        width: 100%;
     }
 }
 
