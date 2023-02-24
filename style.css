@@ -95,7 +95,7 @@ body {
 
     /* moi them vo */
     width: 100%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .img-slider .slide .info h2 {
@@ -125,12 +125,16 @@ body {
 }
 
 /* thực ra <p> này không cần show. Công dụng là để chiều rộng của ".info" bằng chiều rộng của "img-slider".
-Qua đó thì mới căn giữa <h2> được
+Qua đó thì mới căn giữa <h2> được.
+
+Chú ý: Có vẻ như Chrome trên mobile sẽ không render "opacity=0" và "visibility: hidden;".
+Vì cho dù có khai báo "opacity=0" và "visibility: hidden;" thì vẫn không thấy.
+==>> debug bằng cách đặt border cho <h2> và ".info" sẽ thấy
 */
-.img-slider .slide:nth-child(6) .info p {
-    opacity: 0;
+/* .img-slider .slide:nth-child(6) .info p { */
+    /* opacity: 0; */
     /* visibility: hidden; */
-}
+/* } */
 
 .img-slider .slide:nth-child(6) .info h2 {
     text-align: center;
@@ -177,7 +181,8 @@ Qua đó thì mới căn giữa <h2> được
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Độ phân giải của tab S7 xoay ngang tầm xấp xỉ 1500px */
-@media (max-width: 1400px)
+/* @media (max-width: 1400px) */
+@media (max-width: 1300px)
 {
     .img-slider {
         /* width: 920px; */
