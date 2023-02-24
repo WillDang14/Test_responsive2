@@ -28,8 +28,8 @@ body {
     /* width: 800px; */
     /* height: 500px; */
 
-    width: 1120px;
-    height: 700px;
+    width: 1056px;
+    height: 660px;
 
     /* Không cần dùng  tới overflow */
     /* overflow: hidden; */
@@ -161,16 +161,15 @@ body {
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-@media (max-width: 1200px)
+/* @media (max-width: 1200px)
 {
     .img-slider {
-        /* Theo tỉ lệ 800x500 ==>> tức là 1.6 */
         width: 920px;
         height: 575px;
     }
-}
+} */
 
-@media (max-width: 1000px)
+@media (max-width: 1020px)
 {
     .img-slider {
         /* Theo tỉ lệ 800x500 ==>> tức là 1.6 */
@@ -180,7 +179,7 @@ body {
 }
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* @media (max-width: 820px) */
-@media (max-width: 840px)
+@media (max-width: 820px)
 {
     .img-slider {
         /* Theo tỉ lệ 800x500 ==>> tức là 1.6 */
