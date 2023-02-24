@@ -25,11 +25,11 @@ body {
     position: relative;
 
     /* Size theo size của hình ảnh 800x500 */
-    /* width: 800px; */
-    /* height: 500px; */
+    width: 800px;
+    height: 500px;
 
-    width: 1056px;
-    height: 660px;
+    /* width: 1056px; */
+    /* height: 660px; */
 
     /* Không cần dùng  tới overflow */
     /* overflow: hidden; */
@@ -120,7 +120,11 @@ body {
 
 .img-slider .slide:nth-child(6) .info{
     left: 50%;
-    transform: translate(-50%, 20px);
+    transform: translateX(-50%);
+    top: 5%;
+    
+    padding: 10px;
+    /* border: 1px solid green; */
 }
 /* ======================================================================================================== */
 /* Thiết kế buttons */
@@ -161,16 +165,16 @@ body {
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-@media (max-width: 1200px)
-{
-    .img-slider {
+/* @media (max-width: 1200px) */
+/* { */
+    /* .img-slider { */
         /* width: 920px; */
         /* height: 575px; */
 
-        width: 800px;
-        height: 500px;
-    }
-}
+        /* width: 800px; */
+        /* height: 500px; */
+    /* } */
+/* } */
 
 /* @media (max-width: 1020px)
 {
