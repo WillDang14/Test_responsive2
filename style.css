@@ -28,8 +28,11 @@ body {
     /* width: 800px; */
     /* height: 500px; */
 
-    width: 1056px;
-    height: 660px;
+    /* width: 1056px; */
+    /* height: 660px; */
+
+    width: 1120px;
+    height: 700px;
 
     /* Không cần dùng  tới overflow */
     /* overflow: hidden; */
@@ -120,9 +123,9 @@ body {
     /* backdrop-filter: blur(2px); */
 }
 
-.img-slider .slide:nth-child(6) .info {
+/* .img-slider .slide:nth-child(6) .info {
     border: 1px solid red;
-}
+} */
 
 /* thực ra <p> này không cần show. Công dụng là để chiều rộng của ".info" bằng chiều rộng của "img-slider".
 Qua đó thì mới căn giữa <h2> được.
@@ -139,7 +142,7 @@ Vì cho dù có khai báo "opacity=0" và "visibility: hidden;" thì vẫn khôn
 .img-slider .slide:nth-child(6) .info h2 {
     text-align: center;
 
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 /* ======================================================================================================== */
 /* Thiết kế buttons */
@@ -182,7 +185,7 @@ Vì cho dù có khai báo "opacity=0" và "visibility: hidden;" thì vẫn khôn
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Độ phân giải của tab S7 xoay ngang tầm xấp xỉ 1500px */
 /* @media (max-width: 1400px) */
-@media (max-width: 1300px)
+@media (max-width: 1200px)
 {
     .img-slider {
         /* width: 920px; */
