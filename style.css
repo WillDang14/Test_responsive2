@@ -93,7 +93,9 @@ body {
 
     padding: 15px 30px;
 
-    /* border: 1px solid green; */
+    /* moi them vo */
+    width: 100%;
+    border: 1px solid green;
 }
 
 .img-slider .slide .info h2 {
@@ -119,7 +121,7 @@ body {
 }
 
 .img-slider .slide:nth-child(6) .info {
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 /* thực ra <p> này không cần show. Công dụng là để chiều rộng của ".info" bằng chiều rộng của "img-slider".
@@ -133,7 +135,7 @@ Qua đó thì mới căn giữa <h2> được
 .img-slider .slide:nth-child(6) .info h2 {
     text-align: center;
 
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
 }
 /* ======================================================================================================== */
 /* Thiết kế buttons */
@@ -175,7 +177,7 @@ Qua đó thì mới căn giữa <h2> được
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Độ phân giải của tab S7 xoay ngang tầm xấp xỉ 1500px */
-@media (max-width: 1500px)
+@media (max-width: 1400px)
 {
     .img-slider {
         /* width: 920px; */
